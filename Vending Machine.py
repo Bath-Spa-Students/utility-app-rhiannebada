@@ -110,7 +110,7 @@ def vendingmachine(amount_cash):
                 menu(chocolates)
                 selected = select(chocolates)
 
-            #processing selected item if checked available
+            #processing payment for the selected item
             if selected:
                 total = payment_process(selected, total)
 
