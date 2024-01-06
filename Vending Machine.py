@@ -140,7 +140,7 @@ while True:
 
   #checks if total cost exceeds amount of money entered
   if total_all > amount_cash:
-    #output that will notify user about insufficient money and suggests to reselect items
+    #output that will notify user about insufficient balance and suggests to reselect items
     print (' Item/s not dispensed. Purchase cancelled due to insufficient cash.')
     print ('''       Please select item(s) totaling an amount within your
                          remaining balance.''')
